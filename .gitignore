@@ -1,0 +1,25 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Test cache
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build/package files
+build/
+dist/
+*.egg-info/
+
+# Operating system files
+.DS_Store
+
+# Secrets
+.env
