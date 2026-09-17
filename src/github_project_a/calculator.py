@@ -4,6 +4,11 @@ def add(a: float, b: float) -> float:
     return a + b
 
 
+def multiply(a: float, b: float) -> float:
+    """Return the product of two numbers."""
+    return a * b
+
+
 def main():
     first = float(input("First number: "))
     second = float(input("Second number: "))
